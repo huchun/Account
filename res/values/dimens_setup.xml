@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <dimen name="welcom_logo_header">245dp</dimen>
+    <dimen name="welcom_logo_position">74.7dp</dimen>
+    <dimen name="welcom_logo_width">41.5dp</dimen>
+    <dimen name="welcom_logo_height">35.8dp</dimen>
+    <dimen name="welcom_txt_margin_top">33.3dp</dimen>
+    <dimen name="welcom_button_height">60dp</dimen>
+    <dimen name="welcom_angle_width">4.9dp</dimen>
+    <dimen name="welcom_angle_height">6.7dp</dimen>
+    <dimen name="welcom_angle_marginl">26.2dp</dimen>
+    <dimen name="welcom_item_marginl">41.3dp</dimen>
+    <dimen name="welcom_item_height">69.3dp</dimen>
+    <dimen name="welcom_back_width">10.3dp</dimen>
+    <dimen name="welcom_back_height">18.3dp</dimen>
+    <dimen name="welcom_back_marginl">23.2dp</dimen>
+    <dimen name="welcom_back_margint">14.3dp</dimen>
+    <dimen name="common_title_top">111.7dp</dimen>
+    <dimen name="common_title_height">41.3dp</dimen>
+
+
+    <color name="background_main">#FFFFFF</color>
+    <color name="title_color">#313131</color>
+    <color name="list_item_normal_color">#313131</color>
+    <color name="list_item_sel_color">#327EF3</color>
+    <color name="sim_card_lose_hint">#AEAEAE</color>
+
+    <color name="button_color">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="page_background">#efefef</color>
+
+    <color name="primary">#00B1E5</color>
+    <color name="primary_dark">#00A2E5</color>
+    <color name="accent">#009789</color>
+    <color name="primary_text">#8a000000</color>
+    <color name="secondary_text">#727272</color>
+    <color name="button_bar_text">#1e1e1e</color>
+    <color name="divider">#40000000</color>
+    <color name="header_bg">@color/primary</color>
+    <color name="header_condensed_bg">@color/primary_dark</color>
+    <color name="button_bar_background">#e4e7e8</color>
+
+    <dimen name="welcom_title_txt_size">35sp</dimen>
+    <dimen name="welcom_list_txt_size">18sp</dimen>
+    <dimen name="welcom_button_txt_size">21.3sp</dimen>
+
+
+
+
+
+</resources>

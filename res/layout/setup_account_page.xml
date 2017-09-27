@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_title_height"
+            style="@style/PageTitle"
+            android:text="@string/accout_register"
+            android:layout_marginTop="@dimen/common_title_top"
+            android:gravity="center"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/set_gray_line"
+            android:id="@+id/fisrtline"
+            />
+        <EditText
+            style="@style/GuideEdit"
+            android:layout_below="@+id/fisrtline"
+            android:hint="@string/register_num"
+            android:id="@+id/register_phone"
+            android:inputType="phone"
+            android:maxLength="11"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@drawable/set_gray_line"
+            android:layout_below="@+id/register_phone"
+            android:id="@+id/secondline"
+            />
+
+        <EditText
+            style="@style/GuideEdit"
+            android:layout_below="@+id/secondline"
+            android:hint="@string/accout_pass"
+            android:id="@+id/register_pass"
+            android:inputType="textPassword"
+            android:layout_marginRight="50dp"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@drawable/set_gray_line"
+            android:layout_below="@+id/register_pass"
+            android:id="@+id/thridline"
+            />
+        <ImageView
+            style="@style/GuideEye"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/register_pass"
+            android:layout_marginTop="13.8dp"
+            android:id="@+id/eye_pass"
+            android:contentDescription="@string/accout_pass"
+            />
+        
+        <TextView
+            style="@style/GuideSGText"
+            android:text="@string/pass_lenght"
+            android:layout_below="@+id/register_pass"
+            android:layout_marginTop="6.3dp"
+            android:id="@+id/forget"
+            />
+        <Button
+            style="@style/GuideConfirm"
+            android:text="注册"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_below="@+id/forget"
+            android:layout_marginTop="28.70dp"
+            android:id="@+id/confirm"
+            />
+
+        <TextView
+            style="@style/GuideSGText"
+            android:text="@string/msg_notice"
+            android:layout_below="@+id/confirm"
+            android:layout_marginTop="20.7dp"
+            android:gravity="center"
+            android:id="@+id/fee_hint"
+            />
+
+        <CheckBox
+            style="@style/GuideCheckBox"
+            android:layout_below="@+id/fee_hint"
+            android:layout_marginTop="13.3dp"
+            android:clickable="true"
+            android:id="@+id/checkbox"
+            android:checked="true"
+            />
+        <TextView 
+            android:layout_below="@+id/fee_hint"
+            android:layout_marginLeft="100dp"
+            style="@style/GuideSGText"
+            android:text="@string/reg_protocal"
+            android:layout_marginTop="13.3dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/checkbox"
+            android:layout_marginTop="65.3dp"
+            android:layout_centerHorizontal="true"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/use_account"
+                android:textColor="#727272"
+                android:textSize="21.7sp"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/login"
+                android:textColor="#A0CF2A"
+                android:textSize="21.7sp"
+                android:id="@+id/goextra" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>

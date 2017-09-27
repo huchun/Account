@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	 >
+      <Button
+        android:gravity="center"
+        android:layout_height="@dimen/welcom_back_height"
+        android:id="@+id/prev_button"
+        android:layout_width="@dimen/welcom_back_width"
+        android:layout_marginLeft="@dimen/welcom_back_marginl"
+        android:layout_marginTop="@dimen/welcom_back_margint"
+        android:background="@drawable/back_title"
+        />
+
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="注册成功"
+          android:textColor="#313131"
+          android:textSize="36.7sp"
+          android:layout_marginTop="125.3dp"
+          android:layout_centerHorizontal="true"
+          android:id="@+id/register_tag"
+          />
+      
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/register_tag"
+          android:id="@+id/content"
+          android:gravity="center"
+          android:text="您的帐号是 13735370909\n 用于登录玄乎帐号及找回密码"
+          android:textColor="#AEAEAE"
+          android:textSize="14.7sp"
+          android:layout_marginTop="28dp"
+          android:layout_centerHorizontal="true"
+          />
+           
+      <Button 
+          android:layout_above="@+id/complete"
+          android:layout_width="match_parent"
+          android:layout_height="60dp"
+          android:background="@drawable/selector_btn_code"  
+          android:id="@+id/fixpassword"
+          android:text="修改密码"
+          android:textColor="@android:color/white"
+          android:textSize="16sp"
+          />
+      
+      <Button 
+          android:layout_width="match_parent"
+          android:layout_height="60dp"
+          android:background="@drawable/selector_btn_code"
+          android:layout_alignParentBottom="true"
+          android:id="@+id/complete"
+          android:text="完成"
+          android:textColor="@android:color/white"
+          android:textSize="16sp"
+          />
+      
+      
+</RelativeLayout>

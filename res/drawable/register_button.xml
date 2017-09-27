@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  <item android:state_pressed="true"
+         android:drawable="@drawable/registration"></item>
+     <item android:state_focused="true"
+         android:drawable="@drawable/registration"></item>
+     <item android:drawable="@drawable/registration"></item> -->
+     
+     <item android:state_pressed="true">
+         
+         <shape  >
+               <corners android:radius="20dp" />
+               <solid  android:color="@color/selctor_register_color__passred"/>
+         </shape>
+         
+         
+     </item>
+     
+     <item android:state_pressed="false" >
+         <shape >
+             <corners android:radius="20dp"/>
+             <solid android:color="@color/selctor_register_color_foused" />
+         </shape>
+         
+     </item>
+     
+</selector>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+                  
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/common_title_height"
+	            style="@style/PageTitle"
+	            android:text="@string/accout_login"
+	            android:layout_marginTop="@dimen/common_title_top"
+	            android:gravity="center"
+	            />
+	        <View
+	            android:layout_width="match_parent"
+	            android:layout_height="0.7dp"
+	            android:layout_marginTop="210dp"
+	            android:background="@drawable/set_gray_line"
+	            android:id="@+id/fisrtline"
+	            />
+	        <EditText
+	            style="@style/GuideEdit"
+	            android:layout_below="@+id/fisrtline"
+	            android:hint="@string/accout_login_hint"
+	            android:id="@+id/register_phone"
+	            />
+	        <View
+	            android:layout_width="match_parent"
+	            android:layout_height="0.7dp"
+	            android:background="@drawable/set_gray_line"
+	            android:layout_below="@+id/register_phone"
+	            android:id="@+id/secondline"
+	            />
+	
+	        <EditText
+	            style="@style/GuideEdit"
+	            android:layout_below="@+id/secondline"
+	            android:hint="@string/accout_pass"
+	            android:id="@+id/register_pass"
+	            android:inputType="textPassword"
+	            android:layout_marginRight="50dp"
+	            />
+	        <View
+	            android:layout_width="match_parent"
+	            android:layout_height="0.7dp"
+	            android:background="@drawable/set_gray_line"
+	            android:layout_below="@+id/register_pass"
+	            android:id="@+id/thridline"
+	            />
+	        <ImageView
+	            style="@style/GuideEye"
+            	android:layout_alignParentRight="true"
+	            android:layout_alignTop="@+id/register_pass"
+	            android:layout_marginTop="13.8dp"
+	            android:id="@+id/eye_pass"
+	            android:contentDescription="@string/accout_pass"
+	            />
+	        
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:textColor="#777777"
+	            android:text="@string/forget_pass"
+	            android:layout_below="@+id/register_pass"
+	            android:layout_marginTop="6.3dp"
+	            android:layout_marginRight="18.4dp"
+	            android:id="@+id/forget"
+	            />
+	        <Button
+	            style="@style/GuideConfirmL"
+	            android:layout_below="@+id/forget"
+	            android:layout_marginTop="28.70dp"
+	            android:id="@+id/confirm"
+	            android:text="登录"
+	            android:textColor="@android:color/white"
+	            android:textSize="16sp"
+	            />
+	
+	
+	        <CheckBox
+	            style="@style/GuideCheckBox"
+	            android:layout_below="@+id/confirm"
+	            android:layout_marginTop="20.7dp"
+	            android:clickable="true"
+	            android:id="@+id/checkbox"
+	            android:checked="true" />
+	        
+	        
+	        <TextView 
+	            android:layout_below="@+id/confirm"
+	            android:layout_marginLeft="100dp"
+	            style="@style/GuideSGText"
+	            android:text="@string/reg_protocal"
+	            android:layout_marginTop="20.7dp"
+	            />
+	
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:layout_marginTop="525.3dp"
+	            android:layout_centerHorizontal="true"
+	            >
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:text="@string/register_account"
+	                android:textColor="#A0CF2A"
+	                android:textSize="21.7sp"
+	                android:id="@+id/goextra" />
+	
+	        </LinearLayout>
+</RelativeLayout>

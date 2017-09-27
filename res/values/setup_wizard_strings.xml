@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2015 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accout_login">"XX帐号"</string> 
+    <string name="accout_register">"注册帐号"</string>  
+    <string name="register_num">"请输入注册手机号"</string>
+    <string name="pass_lenght">"密码长度6-20位，数字、字母、符号至少包含两种"</string>    
+    <string name="new_pass_lenght">"新密码长度6-20位，数字、字母、符号至少包含两种"</string>  
+    <string name="msg_notice">"激活帐号会发送一条普通短信，资费由运营商收取"</string>
+    <string name="reg_protocal">"注册协议"</string>    
+    <string name="login">"登录"</string> 
+    <string name="verfity_get_account">重新获取</string>   
+    <string name="verfity_account">%ds</string>   
+    <string name="use_account">"用已有帐号"</string>   
+    <string name="setup_ok">"设置完成"</string>   
+    <string name="no_sim">"未检测到SIM卡"</string>      
+    <string name="insert_sim">"建议您插入SIM卡后再继续\n 未插入SIM卡设置帐号，部分备份和\n找回手机功能无法使用"</string>      
+    <string name="accout_login_hint">"手机号码/ID"</string> 
+    <string name="accout_pass">"请输入密码"</string> 
+    <string name="accout_new_pass">"请输入新密码"</string> 
+    <string name="accout_new_to_pass">"请再输入一次新密码"</string> 
+    <string name="password_no_diff">两次输入的新密码不一致</string>
+    <string name="forget_pass">"忘记密码"</string> 
+     <string name="fix_pass">"修改密码"</string> 
+    <string name="register_account">"注册新帐号"</string> 
+	<string name="setting_other">"其他设置"</string>    
+	<string name="location_server">"位置服务"</string>    
+	<string name="location_hint">"“位置服务”允许“地图”及其他应用程序\n对您进行定位"</string>    
+	<string name="policy_hint">"发送诊断与流量数据来帮助玄乎改进产品和\n服务，整个过程将遵循我们的隐私政策"</string>       
+	<string name="next_page">下一个</string>
+	<string name="pre_page">上一个</string>
+	<string name="bridge8">Bridge8</string>
+	<string name="welcom_vistor">欢迎使用</string>
+	<string name="accout_id">"手机号码/ID"</string>
+	<string name="normal">正常</string>
+	<string name="account_already_exists">账号已存在</string>
+	<string name="account_no_exists">账号不存在</string>
+	<string name="password_error">密码错误</string>
+	<string name="account_number_is_not_standard_phone_number">账号不是标准手机号</string>
+	<string name="account_has_been_included_in_the_blacklist">账号已被列入黑名单</string>
+	<string name="identify_code_for_lenght">请输入验证码</string>	
+	<string name="identify_old_password">请输入原密码</string>	
+	<string name="identify_code_lenght">验证码不符合规范</string>		
+	<string name="identify_code_error">验证码错误 </string>
+	<string name="identify_code_overdue">验证码过期 </string>
+	<string name="error_back_msg">数据错误</string>
+	<string name="error_back_psw">密码错误</string>
+	<string name="error_old_psw">原密码错误</string>
+	<string name="error_back_device">设备过多</string>
+	<string name="error_no_account">帐号不存在</string>
+	<string name="error_device_sms">设备号异常</string>
+	<string name="error_back_sms">发送短信异常</string>
+	<string name="complete">完成</string>
+	<string name="jump">跳过</string>
+	<string name="all_complete">完成引导</string>	
+	<string name="next">下一步</string>
+	<string name="unknow_error">未知错误</string>	
+	<string name="wait">请稍候.....</string>
+	<string name="send_seccess">发送成功</string>
+	<string name="fix_seccess">修改成功</string>		
+	<string name="fix_failed">修改失败</string>
+	<string name="pass_is_empty">密码为空</string>		
+	<string name="new_pass_is_empty">新密码为空</string>				
+	<string name="new_pass_is_error">两次输入的新密码不一致</string>			
+	<string name="your_account">您的帐号是</string>
+	<string name="the_purpose_of_account">用于登录帐号及找回密码</string>	
+	<string name="greement_protocal">需同意本APP使用协议</string>								
+</resources>
